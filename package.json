@@ -4,12 +4,13 @@
   "description": "#### Objective Create an Express application that includes a custom controller and associated routes, demonstrating the MVC architectural pattern. This exercise is designed to practice organizing application logic through controllers and managing client requests via routes.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "express": "^4.18.2"
   },
   "devDependencies": {
